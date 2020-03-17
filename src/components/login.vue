@@ -2,9 +2,10 @@
   <div class="login pc">
     <h4>登录</h4>
     <ul class="login-box">
-      <li>
+      <li class="login-box-tel">
         <label>手机号:</label>
         <input type="number" />
+        <button>发送验证码master</button>
       </li>
       <li>
         <label>验证码:</label>
@@ -46,6 +47,18 @@
     top: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
+    &-tel{
+     
+      button{
+        position: absolute;
+        right:0;
+        top:.1rem;
+        padding:.1rem;
+        background:#fff;
+        color:#666666;
+        border-radius: 5px;
+      }
+    }
     li {
       display: flex;
       align-items: center;
@@ -59,7 +72,7 @@
       input {
         border: none;
         border-bottom: 1px solid #fff;
-        width: 4rem;
+        width: 4.5rem;
         background: none;
         outline: none;
         color: #ffffff;
