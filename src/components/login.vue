@@ -6,7 +6,8 @@
         <label>手机号:</label>
         <input type="number" />
         <button>发送验证码master</button>
-        <span>1</span>
+        <span>122</span>
+
       </li>
       <li>
         <label>验证码:</label>
