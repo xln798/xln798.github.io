@@ -5,7 +5,7 @@
       <li class="login-box-tel">
         <label>手机号:</label>
         <input type="number" />
-        <button>发送验证码3</button>
+        <button>发送验证码6</button>
       </li>
       <li>
         <label>验证码:</label>
