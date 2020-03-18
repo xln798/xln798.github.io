@@ -5,9 +5,7 @@
       <li class="login-box-tel">
         <label>手机号:</label>
         <input type="number" />
-        <button>发送验证码master</button>
-        <span>122</span>
-
+        <button>发送验证码</button>
       </li>
       <li>
         <label>验证码:</label>
